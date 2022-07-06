@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<!--
+Copyright 2016 Google Inc. All Rights Reserved.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<head>
+  <title id="title" data-i18n="mainWindowTitle"></title>
+  <link rel="stylesheet" href="window.css">
+  <meta charset="UTF-8">
+</head>
+<body>
+  <div id="navbar">
+    <h1 id="header" data-i18n="mainWindowHeader"></h1>
+  </div>
+
+  <div id="non-chrome-os-warning" class="hidden" data-i18n="nonChromeOsWarning"></div>
+
+  <button id="close-window" data-i18n-aria-label="windowClose">×</button>
+
+  <h2 id="readers-list-header" class="list-header" data-i18n="readersListHeader"></h2>
+  <ul id="readers-list" class="list"></ul>
+  <div id="add-device-wrapper">
+    <button id="add-device" type="button" class="button" data-i18n="addDevice"></button>
+  </div>
+
+  <h2 id="app-list-header" class="list-header" data-i18n="appListHeader"></h2>
+  <ul id="app-list" class="list"></ul>
+
+  <div id="footer">
+    <a id="open-about" href="#" class="footer-link" data-i18n="openAbout"></a>
+    <a id="export-logs" href="#" class="footer-link" data-i18n="exportLogs"></a>
+  </div>
+
+  <script src="window.js"></script>
+</body>
+</html>
