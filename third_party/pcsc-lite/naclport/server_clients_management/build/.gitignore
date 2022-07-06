@@ -1,0 +1,7 @@
+/headers_installed.stamp
+/js_build/
+/js_unittests/js_build/
+/js_unittests/out/
+/out/
+/out-artifacts-emscripten/
+/pnacl/
