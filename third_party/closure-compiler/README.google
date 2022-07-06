@@ -1,0 +1,11 @@
+URL: https://github.com/google/closure-compiler/archive/v20190528.tar.gz
+Version: 20190528
+License: Apache 2.0
+License File: LICENSE
+Description:
+A JavaScript checker and optimizer.
+Local Modifications:
+LICENSE file has been created for compliance purposes. Not included in original
+distribution.
+Added JS definitions that were missing from the original chrome_extensions.js
+file.
