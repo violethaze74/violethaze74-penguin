@@ -1,0 +1,11 @@
+URL: https://repo1.maven.org/maven2/com/google/javascript/closure-compiler/v20220104/closure-compiler-v20220104.jar
+Version: 20220104
+License: Apache 2.0
+License File: LICENSE
+Description:
+A JavaScript checker and optimizer.
+Local Modifications:
+LICENSE file has been created for compliance purposes. Not included in original
+distribution.
+Added Makefile with helper definitions for invoking the Compiler in build
+scripts of this project.

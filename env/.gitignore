@@ -1,0 +1,11 @@
+/activate
+/asan_testing-artifacts/
+/chromedriver
+/coverage-artifacts/
+/depot_tools/
+/emsdk/
+/nacl_sdk/
+/python2/
+/python2_venv/
+/python3_venv/
+/webports/
